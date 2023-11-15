@@ -17,7 +17,7 @@ const Skills = () => {
       style={{ transform: "scale(0.9" }}
     >
       <SkillText />
-
+      <p className="text-center text-white font-bold pt-6">Languages:</p>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Skill_data.map((image, index) => (
           <SkillDataProvider
@@ -29,8 +29,8 @@ const Skills = () => {
           />
         ))}
       </div>
-
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <p className="text-center text-white font-bold pt-6">Frontend Frameworks:</p>
+      <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -41,7 +41,8 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <p className="text-center text-white font-bold pt-6">Backend Frameworks:</p>
+      <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -52,7 +53,8 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <p className="text-center text-white font-bold pt-6">Databases:</p>
+      <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {databases.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -63,7 +65,8 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <p className="text-center text-white font-bold pt-6">Other:</p>
+      <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {Other_skill.map((image, index) => (
           <SkillDataProvider
             key={index}

@@ -159,7 +159,7 @@ export const databases = [
   },
   {
     skill_name: "Firebase",
-    Image: "/firebase.png",
+    Image: "/Firebase.png",
     width: 50,
     height: 50,
   },
