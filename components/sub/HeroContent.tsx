@@ -35,7 +35,7 @@ const HeroContent = () => {
               {" "}
               Shay Cohen{" "}
             </span>
-            and I'm a full stack developer
+            and I&apos;m a full stack developer
           </span>
         </motion.div>
 
@@ -47,8 +47,8 @@ const HeroContent = () => {
           Next.js, backend frameworks such as Django, Flask, FastAPI and a
           little node.js. I also have knowledge of SQL, C# and PHP.
           <br />
-          I've worked with python packages such as OpenCV, pandas, TensorFlow
-          and OpenAI I'm a self learner, I love to bring interesting ideas to
+          I&apos;ve worked with python packages such as OpenCV, pandas, TensorFlow
+          and OpenAI I&apos;m a self learner, I love to bring interesting ideas to
           life, tackle interesting challenges and explore new features.
         </motion.p>
       </div>

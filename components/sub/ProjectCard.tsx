@@ -35,12 +35,12 @@ const ProjectCard = ({
       </a>
       <div className="relative p-4">
         <div className="flex justify-between">
-        <a href={website} target="_blank">
-          <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        </a>
-        <a href={github} target="_blank">
-        <img src="/github.svg" alt="github"/>
-        </a>
+          <a href={website} target="_blank">
+            <h1 className="text-2xl font-semibold text-white">{title}</h1>
+          </a>
+          <a href={github} target="_blank">
+            <Image src="/github.svg" alt="github" width={30} height={30} />
+          </a>
         </div>
         <p className="mt-2 text-gray-300">{description}</p>
 
