@@ -255,16 +255,16 @@ export const projectsData = [
   {
     src: "/stock-assistant.png",
     title: "Stocks AI Assistant",
-    description: `Stock assistant chatbot that uses OpenAI for helping you with the stock market.
-    Can give you stocks and crypto prices, indicators such as RSI, MACD EMA and SMA
-    and graphs`,
+    description: `Stock assistant includes a chatbot that uses OpenAI for helping you with the stock market.
+    Can give you stocks prices and indicators and includes a stock predictor`,
     tags: [
       { name: "OpenAI", color: "white" },
       { name: "Streamlit", color: "red" },
-      { name: "matplotlib", color: "steelblue" },
+      { name: "plotly", color: "steelblue" },
       { name: "yfinance", color: "yellow" },
+      { name: "prophet", color: "steelblue" },
     ],
-    website:"https://shay-stock-assistant.streamlit.app/",
+    website:"https://stock-assistant-1.streamlit.app/",
     github:"https://github.com/ShayCohenn/Stock-Assistant"
   },
 ];
