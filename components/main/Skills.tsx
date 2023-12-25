@@ -29,7 +29,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <p className="text-center text-white font-bold pt-6">Frontend Frameworks:</p>
+      <p className="text-center text-white font-bold pt-6">Frontend:</p>
       <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
@@ -41,7 +41,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <p className="text-center text-white font-bold pt-6">Backend Frameworks:</p>
+      <p className="text-center text-white font-bold pt-6">Backend:</p>
       <div className="flex flex-row justify-around flex-wrap mt-2 gap-5 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider

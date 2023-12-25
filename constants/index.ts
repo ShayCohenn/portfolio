@@ -267,4 +267,33 @@ export const projectsData = [
     website:"https://stock-assistant-1.streamlit.app/",
     github:"https://github.com/ShayCohenn/Stock-Assistant"
   },
+  {
+    src: "/mini_spotify.png",
+    title: "Mini Spotify",
+    description: `A scaled down version of a website inspired by Spotify, 
+    allows users to listen to songs, upload songs, like and search.`,
+    tags: [
+      { name: "NextJs", color: "lightgray" },
+      { name: "Supabase", color: "lime" },
+      { name: "Tailwind css", color: "skyblue" },
+      { name: "Vercel", color: "white" },
+    ],
+    website:"https://spotify-clone-phi-rust.vercel.app/",
+    github:"https://github.com/ShayCohenn/spotify_clone"
+  },
+  {
+    src: "/GeneralAPI.png",
+    title: "GeneralAPI",
+    description: `GeneralAPI is an all purpose RestAPI for developers that provides a
+    wide range of tasks from financial and weather data to generating QR codes and random facts and riddles`,
+    tags: [
+      { name: "FastAPI", color: "lime" },
+      { name: "OpenWeather", color: "orange" },
+      { name: "yfinance", color: "yellow" },
+      { name: "JSON", color: "white" },
+      { name: "RestAPI", color: "steelblue" },
+    ],
+    website:"https://generalapi-docs.vercel.app/",
+    github:"https://github.com/ShayCohenn/GeneralAPI_Docs"
+  },
 ];

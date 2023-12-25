@@ -22,8 +22,8 @@ const ProjectCard = ({
 }: Props) => {
   return (
     <div
-      className="mx-auto w-[90%] md:w-[400px] 2xl:w-[500px] rounded-lg 
-    shadow-lg border border-[#2A0E61]">
+      className="mx-auto h-[475px] overflow-y-scroll w-[90%] md:w-[400px] 2xl:w-[500px] rounded-lg 
+    shadow-lg border border-[#2A0E61] custom-scrollbar">
       <a href={website} target="_blank">
         <Image
           src={src}
