@@ -238,7 +238,7 @@ export const projectsData = [
   {
     src: "/food_app.png",
     title: "Recipe Social Media",
-    description: `Social media app that allows users to search for recipes,
+    description: `My first project - a social media app that allows users to search for recipes,
      upload and review recipes and follow other users`,
     tags: [
       { name: "Django", color: "green" },
@@ -255,7 +255,7 @@ export const projectsData = [
   {
     src: "/document-app.png",
     title: "Document Management App",
-    description: `Document Management App, with many cool features such as child 
+    description: `Document Management App inspired by Notion, with many cool features such as child 
     documents, publish, ctrl+k search, changing file icons, detailed editor and more.`,
     tags: [
       { name: "Next.Js", color: "lightgray" },
