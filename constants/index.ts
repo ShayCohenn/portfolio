@@ -221,6 +221,23 @@ export const projectsData = [
     github:"https://github.com/ShayCohenn/GeneralAPI_Docs"
   },
   {
+    src: "/LiveBoard.png",
+    title: "LiveBoard",
+    description: `LiveBoard is a digital collaboration platform that helps teams and educators visualize ideas,
+    brainstorm, and work together in real time, just like a digital whiteboard.`,
+    tags: [
+      { name: "Next.Js", color: "lightgray" },
+      { name: "Typescript", color: "steelblue" },
+      { name: "Tailwind css", color: "skyblue" },
+      { name: "Clerk", color: "steelblue" },
+      { name: "Convex", color: "orange" },
+      { name: "Vercel", color: "white" },
+      { name: "liveblocks", color: "pink" },
+    ],
+    website:"https://live-board-plum.vercel.app/",
+    github:"https://github.com/ShayCohenn/LiveBoard"
+  },
+  {
     src: "/stock-assistant.png",
     title: "Stocks AI Assistant",
     description: `Stock assistant includes a chatbot that uses OpenAI for helping you with the stock market.
