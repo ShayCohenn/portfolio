@@ -209,7 +209,7 @@ export const projectsData = [
     src: "/GeneralAPI.png",
     title: "GeneralAPI",
     description: `GeneralAPI is an all purpose RestAPI for developers that provides a
-    wide range of tasks from financial and weather data to generating QR codes and random facts and riddles`,
+    wide range of tasks from financial and weather data to generating QR codes, random facts and riddles and an email and sms sending service`,
     tags: [
       { name: "FastAPI", color: "lime" },
       { name: "OpenWeather", color: "orange" },
@@ -218,8 +218,8 @@ export const projectsData = [
       { name: "RestAPI", color: "steelblue" },
       { name: "MongoDB", color: "lime" }
     ],
-    website:"https://generalapi-docs.vercel.app/",
-    github:"https://github.com/ShayCohenn/GeneralAPI_Docs"
+    website:"https://general-api.vercel.app/docs",
+    github:"https://github.com/ShayCohenn/GeneralAPI"
   },
   {
     src: "/LiveBoard.png",
