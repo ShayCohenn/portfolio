@@ -216,7 +216,8 @@ export const projectsData = [
       { name: "yfinance", color: "yellow" },
       { name: "JSON", color: "white" },
       { name: "RestAPI", color: "steelblue" },
-      { name: "MongoDB", color: "lime" }
+      { name: "MongoDB", color: "lime" },
+      { name: "Redis", color: "red" }
     ],
     website:"https://general-api.vercel.app/docs",
     github:"https://github.com/ShayCohenn/GeneralAPI"
