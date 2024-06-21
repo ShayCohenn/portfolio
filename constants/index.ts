@@ -220,7 +220,7 @@ export const projectsData = [
       { name: "Redis", color: "red" }
     ],
     website:"https://general-api.vercel.app/docs",
-    github:"https://github.com/ShayCohenn/GeneralAPI"
+    github:"https://github.com/ShayCohenn/GeneralAPI.api"
   },
   {
     src: "/LiveBoard.png",
